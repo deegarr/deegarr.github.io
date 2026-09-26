@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+* {
+    cursor: url(../img/cursor.png), auto;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Rock Salt', cursive;
+    width: 750px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+body {
+    font-size: 200%;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #ff9696;
+}
+h2 {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    border: 10px solid white;
+    color: white;
+    background-color: #c90000;
+    box-shadow: 5px 5px 10px 1px black;
+}
+table {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid white;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 10px 1px black;
+}
+th {
+    background-color: #c90000;
+    color: white;
+    padding-right: 30px;
+}
+tr:nth-child(odd) td{
+    background-color: #D7D7D7;
+    border-top: 2px solid #999999;
+    border-bottom: 2px solid #999999;
+}
+tr:hover td {
+    background-color: #B7B7B7;
+    border-top: 2px solid #707070;
+    border-bottom: 2px solid #707070;
+    color: white;
+}
+.price {
+    width: 30%;
+    text-align: right;
+    color: #099c22;
+}
+tr:hover img {
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 50%;
+}
+.img {
+    text-align: center;
+}
